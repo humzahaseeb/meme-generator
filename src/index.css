@@ -59,4 +59,16 @@ body {
   cursor: pointer;
   border-radius: 5px;
   border: none;
+  margin-top: 0.5rem;
+}
+.meme {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.meme-image{
+  display: flex;
+  justify-content: center;
 }
