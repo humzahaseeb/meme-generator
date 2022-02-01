@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
 
 
-export default function Meme() {
+const Meme = () => {
 
     const [meme, setMeme] = useState({
         topText: "",
@@ -64,10 +64,12 @@ export default function Meme() {
                 </button>
             </div>
             <div className="meme">
-                <img src={meme.randomImage} className="meme--image" />
+                <img src={meme.randomImage} className="meme--image" alt="Meme"/>
                 <h2 className="meme--text top">{meme.topText}</h2>
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
             </div>
         </main>
     )
 }
+
+export default Meme
